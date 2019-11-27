@@ -13,22 +13,37 @@
     <body>
         <header>
             <div class="container">
-                <div class="row fundo">
+                <div class="row fundo linear">
                     <div class="col-md-6">
                         <div class="col-md-6 logos">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <img src="img/logoD&D.png" alt="">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <img id="runeterra" src="img/logoRuneterra.png" alt="">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img  src="img/gandalf.png" alt="">
+                            <img id="retrato" src="img/gandalf.png" alt="">
                         </div>
                     </div>
-                    <div class="col-md-8">
-
+                    <div class="col-md-8 linear">
+                        <div class="col-md-6 coluna">
+                            <span class="txt" id="jogador">Jogador</span>
+                            <input id="trocaJogador" type="text" name="nomeJogador">
+                            <button type="button">Inserir</button>
+                            <span class="txt" id="personagem">Personagem</span>                       
+                            <input id="trocaPersonagem" type="text" name="nomePersonagem">
+                            <button type="button">Inserir</button>    
+                        </div>    
+                        <div class="col-md-6 coluna">
+                            <span class="txt" id="classe">classe</span>
+                            <input id="trocaClasse" type="text" name="classe">
+                            <button type="button">Inserir</button>
+                            <span class="txt" id="nivel">nivel</span>
+                            <input id="trocaNivel" type="text" name="nivel">
+                            <button type="button">Inserir</button>
+                        </div>
                     </div>
                 </div>
             </div>
